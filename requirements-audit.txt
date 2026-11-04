@@ -1,0 +1,2 @@
+# Optional cross-check only. The exact certificates need no external packages.
+sympy==1.14.0

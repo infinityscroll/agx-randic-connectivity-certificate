@@ -1,0 +1,1557 @@
+{
+  "status": "Original scans are floating-point observations, not certified global optima.",
+  "provenance": "Saved outputs of geng/gentreeg with ra_scan.c; every listed header says T=0, no pruning, no QL failures. Counts are not independent proof of generator coverage.",
+  "datasets": [
+    {
+      "kind": "conn",
+      "n": 4,
+      "count": 6,
+      "winner": "P_4",
+      "top_two": [
+        {
+          "Ra": 1.121320343559643,
+          "R": 1.914213562373095,
+          "a": 0.5857864376269052,
+          "graph6": "CU",
+          "source": "out/conn4/s0.txt"
+        },
+        {
+          "Ra": 1.732050807568877,
+          "R": 1.7320508075688776,
+          "a": 0.9999999999999996,
+          "graph6": "CF",
+          "source": "out/conn4/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/conn4/s0.txt",
+          "sha256": "93d85b256168977fe24f0205159b2242c17ae6f4338bd7c25b6d8b29bbf3cd0d",
+          "header": {
+            "n": "4",
+            "mixed": "0",
+            "count": "6",
+            "computed": "6",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "conn",
+      "n": 5,
+      "count": 21,
+      "winner": "P_5",
+      "top_two": [
+        {
+          "Ra": 0.9221475247255578,
+          "R": 2.414213562373095,
+          "a": 0.3819660112501051,
+          "graph6": "DQo",
+          "source": "out/conn5/s0.txt"
+        },
+        {
+          "Ra": 1.1777177805112642,
+          "R": 2.270055610029662,
+          "a": 0.518805695907985,
+          "graph6": "DCw",
+          "source": "out/conn5/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/conn5/s0.txt",
+          "sha256": "55f23a79c5f2998025baa552faa47430c53e70e2922c844ebfd3260dfe7be5f1",
+          "header": {
+            "n": "5",
+            "mixed": "0",
+            "count": "21",
+            "computed": "21",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "conn",
+      "n": 6,
+      "count": 112,
+      "winner": "P_6",
+      "top_two": [
+        {
+          "Ra": 0.7808611706096955,
+          "R": 2.914213562373095,
+          "a": 0.26794919243112253,
+          "graph6": "ECZ?",
+          "source": "out/conn6/s0.txt"
+        },
+        {
+          "Ra": 0.8999055545123151,
+          "R": 2.770055610029662,
+          "a": 0.32486912943335416,
+          "graph6": "E?qo",
+          "source": "out/conn6/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/conn6/s0.txt",
+          "sha256": "fafc26741ca46b20d7e0846cbb69212934d83afc409ae83b09420fda410d13f2",
+          "header": {
+            "n": "6",
+            "mixed": "0",
+            "count": "112",
+            "computed": "112",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "conn",
+      "n": 7,
+      "count": 853,
+      "winner": "P_7",
+      "top_two": [
+        {
+          "Ra": 0.6762268686094438,
+          "R": 3.414213562373095,
+          "a": 0.1980622641951616,
+          "graph6": "FCQb?",
+          "source": "out/conn7/s0.txt"
+        },
+        {
+          "Ra": 0.7369956518475652,
+          "R": 3.270055610029662,
+          "a": 0.22537710049551116,
+          "graph6": "F?bB_",
+          "source": "out/conn7/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/conn7/s0.txt",
+          "sha256": "18db710075860cefd1ce107385a8ce11a0c758e394303bf706ce0d285dafeda3",
+          "header": {
+            "n": "7",
+            "mixed": "0",
+            "count": "853",
+            "computed": "853",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "conn",
+      "n": 8,
+      "count": 11117,
+      "winner": "P_8",
+      "top_two": [
+        {
+          "Ra": 0.5959035324370022,
+          "R": 3.914213562373095,
+          "a": 0.15224093497742622,
+          "graph6": "G?`ad?",
+          "source": "out/conn8/s0.txt"
+        },
+        {
+          "Ra": 0.62853239219412,
+          "R": 3.770055610029662,
+          "a": 0.16671700823775776,
+          "graph6": "G?BDAo",
+          "source": "out/conn8/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/conn8/s0.txt",
+          "sha256": "8c4abea65a9fd689e9f1d821de5b94481f743c170e80053c08a80909524daa1a",
+          "header": {
+            "n": "8",
+            "mixed": "0",
+            "count": "11117",
+            "computed": "11117",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "conn",
+      "n": 9,
+      "count": 261080,
+      "winner": "P_9",
+      "top_two": [
+        {
+          "Ra": 0.5324193024760425,
+          "R": 4.414213562373095,
+          "a": 0.12061475842818357,
+          "graph6": "H?`D@`O",
+          "source": "out/conn9/s0.txt"
+        },
+        {
+          "Ra": 0.5503038379539166,
+          "R": 4.2700556100296625,
+          "a": 0.12887509864305816,
+          "graph6": "H?AEB?w",
+          "source": "out/conn9/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/conn9/s0.txt",
+          "sha256": "91e07feefa0e3980a63c36b80275ac219d8e0a46a6b60c1aa0ba3ea3bcdc4bfc",
+          "header": {
+            "n": "9",
+            "mixed": "0",
+            "count": "261080",
+            "computed": "261080",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "conn",
+      "n": 10,
+      "count": 11716571,
+      "winner": "P_10",
+      "top_two": [
+        {
+          "Ra": 0.48103746282428345,
+          "R": 4.914213562373096,
+          "a": 0.09788696740969237,
+          "graph6": "I?ABA_gc?",
+          "source": "out/conn10/s9.txt"
+        },
+        {
+          "Ra": 0.4907434105682486,
+          "R": 4.7700556100296625,
+          "a": 0.1028800187436802,
+          "graph6": "I??ED@OJ?",
+          "source": "out/conn10/s2.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/conn10/s0.txt",
+          "sha256": "df3653bd894cc26fb46e521ad4893f503271f3bf9df555c8a00129614dd8f435",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "602072",
+            "computed": "602072",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s1.txt",
+          "sha256": "8b63e6afbb27301b085fee33f1922c340da565a9091123833b39f9e6482fcc0f",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "508270",
+            "computed": "508270",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s10.txt",
+          "sha256": "4ff8a766a098afbcf2c3bfc23584c9cb9a39bc8b3989c2c83908700e31659a56",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "810514",
+            "computed": "810514",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s11.txt",
+          "sha256": "f30fb096d6a8c8b90521d59a928c455d6ae5b1c6e701c2221168257043a8cc10",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "1078725",
+            "computed": "1078725",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s12.txt",
+          "sha256": "14fefccce175a84e0fe4ea018dfc69b337b063e24ac465cda5a37e8fda1a101f",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "1335009",
+            "computed": "1335009",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s13.txt",
+          "sha256": "39a18af38f65525f792397b5971064c13994cdcf91f58851d3aea00288f2b293",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "789448",
+            "computed": "789448",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s14.txt",
+          "sha256": "446a88bdda53dd6103061a67fa0ccf18fa53d5aafdc6b06a09f3519120310da2",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "764578",
+            "computed": "764578",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s15.txt",
+          "sha256": "3b4131553062bf1f7992bf1cf04919302f372138f84b461d436d4e074b40125c",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "775301",
+            "computed": "775301",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s2.txt",
+          "sha256": "7bf05ea6fb495c7ddff3519218a64ea6349dbba2feeb30789675268ced8436b1",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "562497",
+            "computed": "562497",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s3.txt",
+          "sha256": "366b40c1714353a7ad8d60806bd8cc31dc09044d3f3445f530e4656c021a1c06",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "607709",
+            "computed": "607709",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s4.txt",
+          "sha256": "b9b76de75c2f3d1e6070b42066b48598db8bd86c720f9f3c3d8b997e46e2e7ac",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "319966",
+            "computed": "319966",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s5.txt",
+          "sha256": "63f611b4ba21d5799b639488bf883a2e72c62cd07844913a0f010e82f564e18a",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "586883",
+            "computed": "586883",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s6.txt",
+          "sha256": "e583f7cc2e68f09dfe58eee1d2526f0edcf69536c8785a6b738054de4df2d1e8",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "879635",
+            "computed": "879635",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s7.txt",
+          "sha256": "461430cfe651d01b71b32f296da714b5ac26fdd10ea035587cb026830443493c",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "597745",
+            "computed": "597745",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s8.txt",
+          "sha256": "633922e210ac92f5387e1bc2a2e808d19228ddd5fa72e3ca378813b15a772da2",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "674677",
+            "computed": "674677",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/conn10/s9.txt",
+          "sha256": "368a116de10c5433dced215830c52fadae0adebc8c528b416836df40a51b13a2",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "823542",
+            "computed": "823542",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 10,
+      "count": 106,
+      "winner": "P_10",
+      "top_two": [
+        {
+          "Ra": 0.48103746282428506,
+          "R": 4.914213562373096,
+          "a": 0.09788696740969269,
+          "graph6": "IhCK?C@?G",
+          "source": "out/tree10/s0.txt"
+        },
+        {
+          "Ra": 0.4907434105682518,
+          "R": 4.770055610029662,
+          "a": 0.1028800187436809,
+          "graph6": "IhCS?C@?G",
+          "source": "out/tree10/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree10/s0.txt",
+          "sha256": "fc8f30a03e67b3dc341dcf8cce5a32f631013509c4bc0740c8bf0d424b3f105e",
+          "header": {
+            "n": "10",
+            "mixed": "0",
+            "count": "106",
+            "computed": "106",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 11,
+      "count": 235,
+      "winner": "P_11",
+      "top_two": [
+        {
+          "Ra": 0.4386273832555887,
+          "R": 5.414213562373096,
+          "a": 0.08101405277100569,
+          "graph6": "JhCK?C@?G?_",
+          "source": "out/tree11/s0.txt"
+        },
+        {
+          "Ra": 0.44360982175709723,
+          "R": 5.270055610029662,
+          "a": 0.08417554852985706,
+          "graph6": "JhCGS?@?G?_",
+          "source": "out/tree11/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree11/s0.txt",
+          "sha256": "0eb1276ff6235353b3a8bf54ee7a584d200fbb5652b8857254eb64d2e984d29f",
+          "header": {
+            "n": "11",
+            "mixed": "0",
+            "count": "235",
+            "computed": "235",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 12,
+      "count": 551,
+      "winner": "P_12",
+      "top_two": [
+        {
+          "Ra": 0.40304388057569995,
+          "R": 5.914213562373096,
+          "a": 0.06814834742186371,
+          "graph6": "KhCGK?@?G?_@",
+          "source": "out/tree12/s0.txt"
+        },
+        {
+          "Ra": 0.4052214892071273,
+          "R": 5.770055610029662,
+          "a": 0.07022835074635342,
+          "graph6": "KhCGS?@?G?_@",
+          "source": "out/tree12/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree12/s0.txt",
+          "sha256": "6544a33cd0c1eaddc9bad212a18e736fa4966e06c59d7890700b7c11800d3108",
+          "header": {
+            "n": "12",
+            "mixed": "0",
+            "count": "551",
+            "computed": "551",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 13,
+      "count": 1301,
+      "winner": "P_13",
+      "top_two": [
+        {
+          "Ra": 0.372770777527462,
+          "R": 6.414213562373096,
+          "a": 0.05811636514789606,
+          "graph6": "LhCGK?@?G?_@?@",
+          "source": "out/tree13/s0.txt"
+        },
+        {
+          "Ra": 0.3732544982578354,
+          "R": 6.270055610029662,
+          "a": 0.059529695025475164,
+          "graph6": "LhCGGI??G?_@?@",
+          "source": "out/tree13/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree13/s0.txt",
+          "sha256": "9d7afe9bdc4f142672427a495520bb91a2478510c54d5468ad4c223e06067821",
+          "header": {
+            "n": "13",
+            "mixed": "0",
+            "count": "1301",
+            "computed": "1301",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 14,
+      "count": 3159,
+      "winner": "DC(2,2,8)",
+      "top_two": [
+        {
+          "Ra": 0.3457777219840946,
+          "R": 6.62589765768623,
+          "a": 0.05218579275564008,
+          "graph6": "MhCGGI??G?_@?@?@?",
+          "source": "out/tree14/s0.txt"
+        },
+        {
+          "Ra": 0.3461620728951245,
+          "R": 6.770055610029662,
+          "a": 0.051131348519839984,
+          "graph6": "MhCGGI??G?_@?@??_",
+          "source": "out/tree14/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree14/s0.txt",
+          "sha256": "95c103368e15d5ced3f57cede79b2362e4e84d0d8ed81ae888e5aaf9acb34e7f",
+          "header": {
+            "n": "14",
+            "mixed": "0",
+            "count": "3159",
+            "computed": "3159",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 15,
+      "count": 7741,
+      "winner": "DC(2,2,9)",
+      "top_two": [
+        {
+          "Ra": 0.3217808603207606,
+          "R": 7.12589765768623,
+          "a": 0.045156536871348,
+          "graph6": "NhCGGI??G?_@?@??_?O",
+          "source": "out/tree15/s0.txt"
+        },
+        {
+          "Ra": 0.32287010638969404,
+          "R": 7.270055610029662,
+          "a": 0.04441095415339976,
+          "graph6": "NhCGGCA_??_@?@??_?G",
+          "source": "out/tree15/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree15/s0.txt",
+          "sha256": "cb87686ef6630d5b4892db2c1bcb8d1409453d3d21db0b06f45807b99d09813e",
+          "header": {
+            "n": "15",
+            "mixed": "0",
+            "count": "7741",
+            "computed": "7741",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 16,
+      "count": 19320,
+      "winner": "DC(2,2,10)",
+      "top_two": [
+        {
+          "Ra": 0.3011077911619644,
+          "R": 7.62589765768623,
+          "a": 0.039484897998660444,
+          "graph6": "OhCGGCA_??_@?@??_?G?A",
+          "source": "out/tree16/s0.txt"
+        },
+        {
+          "Ra": 0.3026065162536748,
+          "R": 7.770055610029662,
+          "a": 0.03894521885571416,
+          "graph6": "OhCGGCA_??_@?@??_?G?@",
+          "source": "out/tree16/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree16/s0.txt",
+          "sha256": "acc94ebda0794128d46466d85530368c0b83ef175ee0239ffa28d21c08ef34e6",
+          "header": {
+            "n": "16",
+            "mixed": "0",
+            "count": "19320",
+            "computed": "19320",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 17,
+      "count": 48629,
+      "winner": "DC(2,2,11)",
+      "top_two": [
+        {
+          "Ra": 0.28307514338594425,
+          "R": 8.12589765768623,
+          "a": 0.03483616891460422,
+          "graph6": "PhCGGCA_??_@?@??_?G?@??G",
+          "source": "out/tree17/s0.txt"
+        },
+        {
+          "Ra": 0.28352809203607293,
+          "R": 7.916502219436389,
+          "a": 0.03581481873900852,
+          "graph6": "PhCGGCA?c??@?@??_?G?@??G",
+          "source": "out/tree17/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree17/s0.txt",
+          "sha256": "22091e89eedb79ae00f35955be1f25e6fbd7e4fc8826fe0434bf2ea23c05e20b",
+          "header": {
+            "n": "17",
+            "mixed": "0",
+            "count": "48629",
+            "computed": "48629",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 18,
+      "count": 123867,
+      "winner": "DC(3,3,10)",
+      "top_two": [
+        {
+          "Ra": 0.2668345479937975,
+          "R": 8.207106781186548,
+          "a": 0.032512620477349236,
+          "graph6": "QhCGGCA?c??@?@??_?G?@??G??_",
+          "source": "out/tree18/s0.txt"
+        },
+        {
+          "Ra": 0.26692074397031545,
+          "R": 8.416502219436389,
+          "a": 0.031713975355927584,
+          "graph6": "QhCGGCA?c??@?@??_?G?@??C??O",
+          "source": "out/tree18/s0.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree18/s0.txt",
+          "sha256": "9d16ca44800e81f2cd0c163fed527e218ad89315a0f353fbffa080085517e31c",
+          "header": {
+            "n": "18",
+            "mixed": "0",
+            "count": "123867",
+            "computed": "123867",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 19,
+      "count": 317955,
+      "winner": "DC(3,3,11)",
+      "top_two": [
+        {
+          "Ra": 0.25166271884923597,
+          "R": 8.707106781186548,
+          "a": 0.028903139145255895,
+          "graph6": "RhCGGCA?c??@?@??_?G?@??C??O??_",
+          "source": "out/tree19/s7.txt"
+        },
+        {
+          "Ra": 0.2523068955034958,
+          "R": 8.916502219436389,
+          "a": 0.028296622295849557,
+          "graph6": "RhCGGC@?OAO??@??_?G?@??C??G??O",
+          "source": "out/tree19/s1.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree19/s0.txt",
+          "sha256": "b24379c5ed4007c2b3b771d12e7109281f2cd53a17f3d8d11493d59a8c1a50ca",
+          "header": {
+            "n": "19",
+            "mixed": "0",
+            "count": "40475",
+            "computed": "40475",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree19/s1.txt",
+          "sha256": "ba4f9d2978f0634a94260a289bd494be53b64bf3eb94bd3a58ce06ad8d870b53",
+          "header": {
+            "n": "19",
+            "mixed": "0",
+            "count": "43069",
+            "computed": "43069",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree19/s2.txt",
+          "sha256": "29108fcc1b42b03777a750a3c1fadc6a553ae4d0c36b3410e5f835cd9853931a",
+          "header": {
+            "n": "19",
+            "mixed": "0",
+            "count": "36746",
+            "computed": "36746",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree19/s3.txt",
+          "sha256": "8b4fd7f94deee63afdc0d18eda8f003554be45e2638e041d40ed62456fe91c64",
+          "header": {
+            "n": "19",
+            "mixed": "0",
+            "count": "42157",
+            "computed": "42157",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree19/s4.txt",
+          "sha256": "2694386fefeb8a3cf9d9dc7e75588ef81bbe895841338aba2b2ebf131072bede",
+          "header": {
+            "n": "19",
+            "mixed": "0",
+            "count": "39180",
+            "computed": "39180",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree19/s5.txt",
+          "sha256": "ed99c213df936edaf8261b4342fdab7935eeee8c7ff3b76b2af66b68ae7f71eb",
+          "header": {
+            "n": "19",
+            "mixed": "0",
+            "count": "38446",
+            "computed": "38446",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree19/s6.txt",
+          "sha256": "086511eb3a1924a31ae6cba968028deaa442054a35e35fbf875d97802c49f6d5",
+          "header": {
+            "n": "19",
+            "mixed": "0",
+            "count": "40631",
+            "computed": "40631",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree19/s7.txt",
+          "sha256": "3711ca0b2deb5c8b9dddc54e5dd169cd04f8d09af85e99cbf7177ce5df8609dd",
+          "header": {
+            "n": "19",
+            "mixed": "0",
+            "count": "37251",
+            "computed": "37251",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 20,
+      "count": 823065,
+      "winner": "DC(3,3,12)",
+      "top_two": [
+        {
+          "Ra": 0.238310402281863,
+          "R": 9.207106781186548,
+          "a": 0.02588331035421653,
+          "graph6": "ShCGGC@?OAO??@??_?G?@??C??G??O??O",
+          "source": "out/tree20/s5.txt"
+        },
+        {
+          "Ra": 0.23925570041878305,
+          "R": 8.958635538609943,
+          "a": 0.02670671213128812,
+          "graph6": "ShCGGCA?_CO??@??_?G?@??C??G??O??O",
+          "source": "out/tree20/s5.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree20/s0.txt",
+          "sha256": "63b6831c5b424cb95b48b0462ef98236ab60b800f2941bf58e0d870cba6e6cf7",
+          "header": {
+            "n": "20",
+            "mixed": "0",
+            "count": "102865",
+            "computed": "102865",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree20/s1.txt",
+          "sha256": "49038e4011dc26de95ba5a8d2f89c6f6639d9eb63a4695aeaf0ed78440fd4cd3",
+          "header": {
+            "n": "20",
+            "mixed": "0",
+            "count": "100130",
+            "computed": "100130",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree20/s2.txt",
+          "sha256": "d97770801d57db92d1d3a19722863f8f31a5c2784778f3fdbee4a4ea09c513f6",
+          "header": {
+            "n": "20",
+            "mixed": "0",
+            "count": "106440",
+            "computed": "106440",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree20/s3.txt",
+          "sha256": "e0a652d24196724e3ea11150925d6d982ff2155e3194089a43ba82371a993529",
+          "header": {
+            "n": "20",
+            "mixed": "0",
+            "count": "97911",
+            "computed": "97911",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree20/s4.txt",
+          "sha256": "2522aba4e829a4b3d854ea558d7f269e3159279b811e77c2f3cfe89f5007881e",
+          "header": {
+            "n": "20",
+            "mixed": "0",
+            "count": "101154",
+            "computed": "101154",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree20/s5.txt",
+          "sha256": "b336c770e7b3ef13ebc695a0632c62070b2878a658073f5dba0adef098bc9846",
+          "header": {
+            "n": "20",
+            "mixed": "0",
+            "count": "109130",
+            "computed": "109130",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree20/s6.txt",
+          "sha256": "8de0f072acfcb234a33b2f38404c349c054bbdb113108e1905b85dcb4380a8cf",
+          "header": {
+            "n": "20",
+            "mixed": "0",
+            "count": "102430",
+            "computed": "102430",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree20/s7.txt",
+          "sha256": "1a3810dc583026ef0682828f3e51dc2999fc5ceac4533686690c96523e329b6d",
+          "header": {
+            "n": "20",
+            "mixed": "0",
+            "count": "103005",
+            "computed": "103005",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 21,
+      "count": 2144505,
+      "winner": "DC(3,3,13)",
+      "top_two": [
+        {
+          "Ra": 0.2264424680815049,
+          "R": 9.707106781186548,
+          "a": 0.023327493267136564,
+          "graph6": "ThCGGC@?OAO??@??_?G?@??C??G??G??G??C",
+          "source": "out/tree21/s3.txt"
+        },
+        {
+          "Ra": 0.22674699881954796,
+          "R": 9.458635538609945,
+          "a": 0.02397248502640488,
+          "graph6": "ThCGGC@?OA?G_???_?G?@??C??G??G??G??C",
+          "source": "out/tree21/s4.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree21/s0.txt",
+          "sha256": "c0cdedbc4e2a5e9a8f6e3dcaa83374a1e7d7c18a1c65d91977bcfec0711103e3",
+          "header": {
+            "n": "21",
+            "mixed": "0",
+            "count": "238773",
+            "computed": "238773",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree21/s1.txt",
+          "sha256": "e5635541ecb5363afc65277ca0a6a96f7d7282609836b9ea9a97d048df7e17ca",
+          "header": {
+            "n": "21",
+            "mixed": "0",
+            "count": "279255",
+            "computed": "279255",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree21/s2.txt",
+          "sha256": "3a5779eb85ba24a6f02ebe56ab16e3a091c5288425af6f0c9e286e7abc131e6b",
+          "header": {
+            "n": "21",
+            "mixed": "0",
+            "count": "268073",
+            "computed": "268073",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree21/s3.txt",
+          "sha256": "b0614f9f0c07e7feec9107a23e6a8c14b053f2d71b9f7711c95e6266db85ab6c",
+          "header": {
+            "n": "21",
+            "mixed": "0",
+            "count": "285338",
+            "computed": "285338",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree21/s4.txt",
+          "sha256": "07b0b0a498a4a7594f073e02dd5a16e91b42c974c8bc0f4e7a2a5bbae61066a3",
+          "header": {
+            "n": "21",
+            "mixed": "0",
+            "count": "267411",
+            "computed": "267411",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree21/s5.txt",
+          "sha256": "c173144285714b5529b33dc7cffc5d619f4d9a44611f4a648803b14ae6e8ca48",
+          "header": {
+            "n": "21",
+            "mixed": "0",
+            "count": "269965",
+            "computed": "269965",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree21/s6.txt",
+          "sha256": "f077027dd42d1ae2753ffa3a73b330265e7f79f59affd5ec11e40c3bdc6dadf5",
+          "header": {
+            "n": "21",
+            "mixed": "0",
+            "count": "268525",
+            "computed": "268525",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree21/s7.txt",
+          "sha256": "941593b22706907f10c03e5a853423ebd23f958399a05195e19b255518059736",
+          "header": {
+            "n": "21",
+            "mixed": "0",
+            "count": "267165",
+            "computed": "267165",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    },
+    {
+      "kind": "tree",
+      "n": 22,
+      "count": 5623756,
+      "winner": "DC(4,4,12)",
+      "top_two": [
+        {
+          "Ra": 0.21562617718082527,
+          "R": 9.710164296033343,
+          "a": 0.02220623365445112,
+          "graph6": "UhCGGC@?OA?G_???_?G?@??C??G??G??G??C??@?",
+          "source": "out/tree22/s3.txt"
+        },
+        {
+          "Ra": 0.21564677187215583,
+          "R": 9.958635538609943,
+          "a": 0.021654248821144875,
+          "graph6": "UhCGGC@?OA?G_???_?G?@??C??G??G??C??A???_",
+          "source": "out/tree22/s2.txt"
+        }
+      ],
+      "shards": [
+        {
+          "file": "out/tree22/s0.txt",
+          "sha256": "8910fd225b27d6315f91fb876a34d0be0b2fe97439fc766c8d20bb80340ee09c",
+          "header": {
+            "n": "22",
+            "mixed": "0",
+            "count": "753816",
+            "computed": "753816",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree22/s1.txt",
+          "sha256": "070fb5bd5193d2e793b1ccfd33bab7685a350dcb86723e90ca2f2cea4883063f",
+          "header": {
+            "n": "22",
+            "mixed": "0",
+            "count": "711146",
+            "computed": "711146",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree22/s2.txt",
+          "sha256": "901ef259e30f3b2ad9ea1606ce9a0a311497f3345522e6e83910138f90f8e78c",
+          "header": {
+            "n": "22",
+            "mixed": "0",
+            "count": "739104",
+            "computed": "739104",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree22/s3.txt",
+          "sha256": "cafe066475dabbb2ed22175da5c93af39c8213345c8d9cb3b5b55bd582835065",
+          "header": {
+            "n": "22",
+            "mixed": "0",
+            "count": "652718",
+            "computed": "652718",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree22/s4.txt",
+          "sha256": "e7ec1ee9ba5377117a79b1ac75b53e868bfd8c897c10458cac887442f1fc6f9a",
+          "header": {
+            "n": "22",
+            "mixed": "0",
+            "count": "679000",
+            "computed": "679000",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree22/s5.txt",
+          "sha256": "5f24f08553d0413fb506125736c12e5ec6926281e932a03a96b0cec22a45d8ad",
+          "header": {
+            "n": "22",
+            "mixed": "0",
+            "count": "671139",
+            "computed": "671139",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree22/s6.txt",
+          "sha256": "47978d9522d70847838961714f2a2e39bdaecd3fedd9d0612ae5593f2a9474c2",
+          "header": {
+            "n": "22",
+            "mixed": "0",
+            "count": "707547",
+            "computed": "707547",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        },
+        {
+          "file": "out/tree22/s7.txt",
+          "sha256": "b8e38cc0d675628e7a30114f6068ed4239468526336da5d24c6c997dc06444b8",
+          "header": {
+            "n": "22",
+            "mixed": "0",
+            "count": "709286",
+            "computed": "709286",
+            "pruned_mohar": "0",
+            "pruned_inertia": "0",
+            "fallback": "0",
+            "disconnected": "0",
+            "qlfail": "0",
+            "T": "0",
+            "K": "50"
+          }
+        }
+      ]
+    }
+  ]
+}

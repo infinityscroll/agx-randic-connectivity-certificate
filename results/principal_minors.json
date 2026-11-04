@@ -1,0 +1,689 @@
+{
+  "all_certified": true,
+  "classes": {
+    "10": 9,
+    "11": 12,
+    "12": 16,
+    "13": 20
+  },
+  "comparisons": [
+    {
+      "n": 10,
+      "leaves": null,
+      "relation": "<",
+      "target": "49/100",
+      "spectral_threshold": "69296464556277/694974746830550",
+      "method": "determinant negative"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        2,
+        2
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "2165514517385764582532366340912636837/20443772517668901006032584375000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        2,
+        3
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "875000000001043637314321101384801514399158072177/7886611106143010659432555425670922023437500000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        2,
+        4
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "97222222222338568804290784711501830493711169620336922421/826990273187316081916530450934990198752523344227500000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        2,
+        5
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "1082757258692340912636837/8602098542903125000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        2,
+        6
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "51450000000013402739666849242789842567/382274053000467109949795245000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        3,
+        3
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "277185858225344592929112603/2379898987323100000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        3,
+        4
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "37333333333373528894568680342464545001455675297/301610326751476117073330254398175993280000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        3,
+        5
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "6125000000005922604682583430052341291/46817069969417580624149064062500000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 10,
+      "leaves": [
+        4,
+        4
+      ],
+      "relation": ">",
+      "target": "49/100",
+      "spectral_threshold": "73044887265014608977453/563147573033440000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": null,
+      "relation": "<",
+      "target": "11/25",
+      "spectral_threshold": "15556349186103/191421356237300",
+      "method": "determinant negative"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        2,
+        2
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "486135912066192049139918974490591943/5663370302219440002853471093750000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        2,
+        3
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "196428571428805714499133308474139115477362016203/2194867062250193006009751304967767330859375000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        2,
+        4
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "21825396825422944017289767996459594600629038078034819319/231549155598433601523311092257384090676356561056875000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        2,
+        5
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "54015101340688005459990997165621327/539275160472880863997894531250000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        2,
+        6
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "721875000000416371889465692720599039497121847299/6723276178520822958520245837366324317734375000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        2,
+        7
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "37714285714304141644641975140356663313/328602721522727591978069650000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        3,
+        3
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "62225396744465112698372217/665685424949450000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        3,
+        4
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "8380952380961404445719499668716530510530865883/84926391211684045142797360260602823320000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        3,
+        5
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "196428571428805714499133308474139115477362016203/1867620525674479849339702885985302441796875000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        3,
+        6
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "3880435256230606884294781/34895423222002500000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        4,
+        4
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "31112698372217123808069/297703572363520000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 11,
+      "leaves": [
+        4,
+        5
+      ],
+      "relation": ">",
+      "target": "11/25",
+      "spectral_threshold": "1169217687075404554190079048033/10662919909001142153460625000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": null,
+      "relation": "<",
+      "target": "81/200",
+      "spectral_threshold": "114551298552213/1672792206135700",
+      "method": "determinant negative"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        2,
+        2
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "3579728079760141452757585175794358853/49726379800173238033590368750000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        2,
+        3
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "1446428571430296624948163453309569850333302119313/19344650783717066777290910028142433246875000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        2,
+        4
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "160714285714478042309133746155747923877359280392801851349/2050805943200305460539916574248165053316658288455000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        2,
+        5
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "1193242693253380484252528391931452951/14415742978821713406203668750000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        2,
+        6
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "3543750000003815882457378058995760336958912357110220208170643/40232472952131507981247461767907353619829169878780625000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        2,
+        7
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "8678571428579610106831836359741425428999906357939/91881912064266068146522635732392529340625000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        2,
+        8
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "1262665038718221888346239267/12513843876332600000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        3,
+        3
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "152735064736414367532368169/1963722941515000000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        3,
+        4
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "61714285714352160009389043015094451941181830593/755601605883992488138097255373293186560000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        3,
+        5
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "1446428571430296624948163453309569850333302119313/16726678491111361523930522676282714134375000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        3,
+        6
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "7957894736849718989653592615647042146872812949781/86232169246170884898070078940252801980000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        3,
+        7
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "13714285714298001062145663571959644259/140584988087256539814159800000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        4,
+        4
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "152735064736414975317434169303892533/1776314194256034626544902720000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        4,
+        5
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "241071428571596527749414820969747178405554047/2639880199364852305515588492632977865000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        4,
+        6
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "2268000000000711456907608477667413/23663763597609485651606960000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 12,
+      "leaves": [
+        5,
+        5
+      ],
+      "relation": ">",
+      "target": "81/200",
+      "spectral_threshold": "379608423148348982356239/3982748070331250000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": null,
+      "relation": "<",
+      "target": "373/1000",
+      "spectral_threshold": "527501658765129/9071067811865000",
+      "method": "determinant negative"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        2,
+        2
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "16484426836426330393562707044090072249/270728985912954780221764843750000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        2,
+        3
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "6660714285722230137106974914623080915732366549429/105651825347162947532519048082713639234375000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        2,
+        4
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "740079365080250738040825769334493526003148291191544327817/11246093208065710544466722052186286906112320442275000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        2,
+        5
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "5494808945475443464520902348030024083/79444410531471430382289343750000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        2,
+        6
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "16318750000017571903167926123523686489946596409902618983304319/223037364760670157236221117709857951114210147796903125000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        2,
+        7
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "26642857142895581262713621888629430637844089278631732366549429/341987325928692746830869131936537925359579322355234375000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        2,
+        8
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "3933984375003572886161532191480598792812542639983/47095148206844350783685284390122862440625000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        2,
+        9
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "2797500000000920335958337128997268030439/31374934637749296372136007250000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        3,
+        3
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "2110006635062317003317530631/32284271247472000000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        3,
+        4
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "284190476190782168932124852402842352766182997669/4158960410372563075669078143308818932800000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        3,
+        5
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "6660714285722230137106974914623080915732366549429/92561963884134421265717111323415043671875000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        3,
+        6
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "109936842105368340116325557245790619288279971491419/1440850959745262163142998771985753132700000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        3,
+        7
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "2813342180083792673301728280334439176877/34532659915505771236166332000000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        3,
+        8
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "4476000000004476000000001367666666666791/52000000000032000000000004000000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        4,
+        4
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "703335545020775133251888211732739689/9824380012862510217817513600000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        4,
+        5
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "740079365080250738040825769334493526003148291191544327817/9791664156618090727151375576897913837016750629775000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        4,
+        6
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "5248241206032568779547398046897777699650231723/65288264514376018269169142629836877600000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        4,
+        7
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "284190476190595139234325027444957837/3369022475552102775779694400000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        5,
+        5
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "24726640254627132270216747/308906215913656250000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 13,
+      "leaves": [
+        5,
+        6
+      ],
+      "relation": ">",
+      "target": "373/1000",
+      "spectral_threshold": "16406250000008397523991094823394103/196317787464599385309415625000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 14,
+      "leaves": null,
+      "relation": ">",
+      "target": "173/500",
+      "spectral_threshold": "244658946290824329473145351/4889087296529000000000000000",
+      "method": "all leading minors positive"
+    },
+    {
+      "n": 14,
+      "leaves": [
+        2,
+        2
+      ],
+      "relation": "<",
+      "target": "173/500",
+      "spectral_threshold": "1118867132425626830354027/21426298011567756954448250",
+      "method": "determinant negative"
+    }
+  ]
+}

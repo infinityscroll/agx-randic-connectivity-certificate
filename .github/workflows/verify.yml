@@ -1,0 +1,33 @@
+name: Exact certificates
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  stdlib:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Interval certificate
+        run: python -I certificate/verify_theorem.py --no-sympy
+      - name: Optimized interval certificate
+        run: python -I -O certificate/verify_theorem.py --no-sympy
+      - name: Independent determinant certificate
+        run: python -I -O certificate/verify_principal_minors.py
+  cross-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r requirements-audit.txt numpy
+      - name: SymPy polynomial cross-check
+        run: python -I certificate/verify_theorem.py
+      - name: Retained numerical candidates (not exhaustive)
+        run: python numerics/replay_selected_candidates.py

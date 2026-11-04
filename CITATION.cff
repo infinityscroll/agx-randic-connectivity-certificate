@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this finite comparison theorem with its explicit proper-double-comet scope."
+title: "Paths versus proper double comets for Randić index times algebraic connectivity"
+type: software
+authors:
+  - family-names: Prajapati
+    given-names: Jitendra
+    affiliation: Independent
+    orcid: 'https://orcid.org/0009-0008-7493-0311'
+version: 1.0.0
+date-released: 2026-11-05
+repository-code: 'https://github.com/infinityscroll/agx-randic-connectivity-certificate'
+license: MIT

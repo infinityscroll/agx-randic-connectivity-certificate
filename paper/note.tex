@@ -1,0 +1,228 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,amsthm,booktabs}
+\usepackage[margin=1in]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue]{hyperref}
+\hypersetup{pdftitle={Paths versus proper double comets for the Randic index times algebraic connectivity},pdfauthor={Jitendra Prajapati}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newcommand{\DC}{\mathrm{DC}}
+\newcommand{\ra}{\rho}
+\title{Paths versus proper double comets for the\protect\\ Randi\'c index times algebraic connectivity}
+\author{Jitendra Prajapati\\[3pt]\small Independent\\
+\small\href{https://orcid.org/0009-0008-7493-0311}{ORCID: 0009-0008-7493-0311}}
+\date{November 5, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+For each $n\in\{10,11,12,13\}$, we certify that the path $P_n$ has a strictly
+smaller product of Randi\'c index and algebraic connectivity than every double
+comet whose two end stars each have at least two leaves. At order $14$, the
+balanced double comet with two leaves at each end has a smaller product than
+the path. Two separate exact-arithmetic programs verify these finite
+comparisons, one by spectral intervals and the other by integer determinant
+signs. The comparisons contradict the product clause of the 2007
+Aouchiche--Hansen--Zheng conjecture under the convention that double comets
+exclude paths. The printed definition does not explicitly impose this
+restriction; the inclusive convention is therefore distinguished.
+\end{abstract}
+
+\section{The product and the source conjecture}
+All graphs are finite, simple and connected. For a graph $G$ with vertex
+degrees $d_v$, let
+\[
+ R(G)=\sum_{uv\in E(G)}\frac{1}{\sqrt{d_ud_v}},\qquad
+ a(G)=\lambda_2(D-A),\qquad \ra(G)=R(G)a(G),
+\]
+where the Laplacian eigenvalues are ordered increasingly.
+Aouchiche, Hansen and Zheng~\cite[p.~98, Conjecture~4]{AHZ} proposed that
+the minimum of $\ra$ among connected graphs of order $n$ is attained by a
+path for $n\le9$, and by a balanced double comet for $n\ge10$.
+Li, Shi and Wang~\cite[p.~845, Conjecture~1.2]{LSW} repeated the product
+clause. Their results on the product impose additional diameter or
+minimum-degree hypotheses.
+
+Let $\DC(k_1,k_2,p)$ be the tree formed from two centres joined by a path
+with $p$ internal vertices, with $k_1$ pendant leaves at the first centre
+and $k_2$ at the second. Thus its order is $k_1+k_2+p+2$.
+Throughout the theorem, a \emph{proper double comet} means
+$k_1,k_2\ge2$ and $p\ge0$. Balanced double comets with equal star sizes
+are a subfamily.
+
+The parenthetical definitions in~\cite{AHZ,LSW} specify equal-sized stars
+joined by a path, but no lower bound on their size. If one-leaf stars are
+allowed, $\DC(1,1,n-4)$ is the path itself. The split into two ranges of
+$n$ does not logically exclude this interpretation. A later convention
+in Aouchiche, Hansen, Hertz and Sellal~\cite[Section~2]{AHHS} restricts
+balanced double comets to diameter at most $n-3$, which excludes paths,
+but does not determine the intended scope of the earlier statement.
+
+\section{A certified finite comparison}
+\begin{theorem}\label{thm:main}
+For $n\in\{10,11,12,13\}$ and all integers $k_1,k_2\ge2$, $p\ge0$ with
+$k_1+k_2+p+2=n$,
+\[
+ \ra(P_n)<c_n<\ra(\DC(k_1,k_2,p)),
+\]
+where the rational constants $c_n$ are given in Table~\ref{tab:bounds}.
+Moreover,
+\[
+ \ra(\DC(2,2,8))<\frac{173}{500}<\ra(P_{14}).
+\]
+\end{theorem}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrr}
+\toprule
+$n$ & $c_n$ & Unordered classes & Ordered triples\\
+\midrule
+10 & $49/100$ & 9 & 15\\
+11 & $11/25$ & 12 & 21\\
+12 & $81/200$ & 16 & 28\\
+13 & $373/1000$ & 20 & 36\\
+\bottomrule
+\end{tabular}
+\caption{Exact separating constants. Unordered means $k_1\le k_2$;
+interchanging the two centres gives an isomorphic graph.}\label{tab:bounds}
+\end{table}
+
+\begin{lemma}\label{lem:sign}
+Let $L$ be the Laplacian of a connected graph of order $n$, and let $J$
+be the all-ones matrix. For $0<t<n$, positive leading principal minors
+of $L+J-tI$ imply $a(G)>t$. A negative determinant of $L+J-tI$ implies
+$a(G)<t$.
+\end{lemma}
+\begin{proof}
+The all-ones vector is a zero eigenvector of $L$. On its orthogonal
+complement, $J$ vanishes. The eigenvalues of $L+J-tI$ are consequently
+$n-t,\lambda_2(L)-t,\ldots,\lambda_n(L)-t$.
+Sylvester's criterion proves the first assertion. For the second, a
+negative determinant forces a negative eigenvalue, and $n-t$ is positive.
+\end{proof}
+
+\begin{proof}[Computer-assisted proof of Theorem~\ref{thm:main}]
+The program \texttt{verify\_principal\_minors.py} in the accompanying
+repository~\cite{artifact} implements the following finite certificate
+using integer and rational arithmetic only.
+
+For each edge, put $m=d_ud_v$, $s=10^{12}$, and $q=\lfloor s\sqrt m\rfloor$,
+computed as an integer square root of $ms^2$. Then
+\[
+ \frac{s}{q+1}\le\frac1{\sqrt m}\le\frac{s}{q}.
+\]
+The program also checks these inequalities by squaring the positive
+rational endpoints. Summing gives positive bounds $R_-\le R(G)\le R_+$.
+To prove $\ra(G)>c$, set $t=c/R_-$ and check the first criterion of
+Lemma~\ref{lem:sign}. To prove $\ra(G)<c$, set $t=c/R_+$ and check the
+second. Both uses explicitly check $0<t<n$.
+
+For $t=a/b$ with $b>0$, the integer matrix
+\[
+ M=b(L+J)-aI
+\]
+has the same principal-minor signs as $L+J-tI$. Each required determinant
+is computed by fraction-free Bareiss elimination, with row swaps and
+exact-division checks. For each order in Table~\ref{tab:bounds}, the
+program constructs $P_n$ and enumerates all $k_1\le k_2$ with
+$k_1,k_2\ge2$ and $k_1+k_2+2\le n$, setting $p=n-k_1-k_2-2$.
+Every path gives the required negative determinant at $c_n/R_+$, and
+every proper double comet gives positive leading principal minors at
+$c_n/R_-$. At order $14$ the path and $\DC(2,2,8)$ satisfy the opposite
+comparisons at $173/500$.
+
+These are 63 product comparisons: 57 proper double comets, four paths,
+and two order-14 comparisons. The program checks the enumeration counts,
+graph simplicity, connectedness, degree multisets and edge counts, and
+records each rational spectral threshold. Every comparison succeeds.
+Its checks use explicit exceptions and remain active in optimized Python.
+\end{proof}
+
+A second program, \texttt{verify\_theorem.py}, independently bounds each
+algebraic connectivity in two ways: rational inertia counts for $L-tI$,
+and Sturm isolation for the characteristic polynomial after removing its
+simple zero factor. It computes characteristic polynomials by the exact
+Faddeev--LeVerrier recurrence and checks Cayley--Hamilton. For paths it
+also checks
+\[
+ R(P_n)=\frac{n-3}{2}+\sqrt2,\qquad
+ a(P_n)=2-2\cos(\pi/n)
+\]
+using rational bounds for the radicals, $\pi$ and cosine. Optional SymPy
+characteristic polynomials provide a further implementation check.
+Floating point supplies trial endpoints and a noncertifying closed-form
+sanity check; all final product comparisons use exact rational bounds.
+
+The interval program checks both orders of the star sizes. It also
+certifies that $\DC(2,2,n-6)$ is the unique smallest proper-double-comet
+class for each $n=10,\ldots,14$, by strict separation of its upper
+product bound from every other class's lower bound. At order $14$ all
+other proper-double-comet classes are still above the path.
+
+\section{Interpretation and supplementary computation}
+Under the proper convention, Theorem~\ref{thm:main} excludes every
+balanced double comet from being a global minimizer at orders $10$--$13$:
+the path is a connected graph of the same order with a smaller value.
+Proving that the path is globally optimal is unnecessary for this
+conclusion. Under the inclusive convention, the theorem does not refute
+the conjecture, because the path belongs to the named family.
+The order-$14$ comparison does not establish a threshold valid for all
+larger orders.
+
+Separate saved floating-point scans report $P_{10}$ as the minimizer
+among 11,716,571 connected graphs of order $10$. Tree scans through order
+$22$ report paths for orders $10$--$13$, $\DC(2,2,n-6)$ for $14$--$17$,
+$\DC(3,3,n-8)$ for $18$--$21$, and $\DC(4,4,12)$ for $22$.
+These are numerical observations, not exact global optimality
+certificates. The repository includes a replay of 40 retained winners
+and runners-up, not a rerun of the full enumeration. The interrupted
+connected-graph scan at order $11$ is excluded.
+
+Gebendorfer's tadpole construction~\cite{Geb} concerns the quotient
+$R/a$, a separate clause. It should not be conflated with these product
+comparisons. The accompanying literature record identifies the sources
+searched; no earlier instance of this precise finite comparison was
+located, and no exhaustive historical-priority claim is made.
+
+\section*{Reproducibility}
+The exact verifiers require Python 3.10 or later and no external packages:
+\begin{verbatim}
+python3 -I certificate/verify_theorem.py --no-sympy
+python3 -I -O certificate/verify_principal_minors.py
+\end{verbatim}
+The first command ends with \texttt{ALL CERTIFIED: True}; the second
+outputs a JSON record with \texttt{all\_certified} equal to \texttt{true}.
+Both return a nonzero exit status on a failed check. Source code, replay
+outputs, review provenance, and this note are available in~\cite{artifact}.
+The note is licensed under Creative Commons Attribution 4.0 International.
+
+\begin{thebibliography}{9}
+\bibitem{AHZ}
+M.~Aouchiche, P.~Hansen, and M.~Zheng,
+Variable Neighborhood Search for Extremal Graphs. 19. Further Conjectures
+and Results about the Randi\'c Index,
+\emph{MATCH Commun. Math. Comput. Chem.} \textbf{58} (2007), 83--102.
+\href{https://match.pmf.kg.ac.rs/electronic_versions/Match58/n1/match58n1_83-102.pdf}{Publisher PDF}.
+\bibitem{LSW}
+X.~Li, Y.~Shi, and L.~Wang,
+On a Relation Between Randi\'c Index and Algebraic Connectivity,
+\emph{MATCH Commun. Math. Comput. Chem.} \textbf{68} (2012), 843--849.
+\href{https://match.pmf.kg.ac.rs/electronic_versions/Match68/n3/match68n3_843-849.pdf}{Publisher PDF}.
+\bibitem{AHHS}
+M.~Aouchiche, P.~Hansen, A.~Hertz, and C.~Sellal,
+\emph{Bounds on differences between some graph theoretic invariants},
+Les Cahiers du GERAD G--2015--31, April 2015.
+\href{https://www.gerad.ca/fr/papers/G-2015-31.pdf}{Report}.
+\bibitem{Geb}
+J.~J.~Gebendorfer,
+\emph{An infinite tadpole counterexample family to the Randi\'c
+index--algebraic connectivity conjecture}, preprint, August 6, 2026.
+\href{https://doi.org/10.5281/zenodo.21827918}{doi:10.5281/zenodo.21827918}.
+\bibitem{artifact}
+J.~Prajapati, \emph{Paths versus proper double comets for Randi\'c index
+times algebraic connectivity}, computational artifact, version 1.0.0,
+November 5, 2026.
+\url{https://github.com/infinityscroll/agx-randic-connectivity-certificate}.
+\end{thebibliography}
+\end{document}
